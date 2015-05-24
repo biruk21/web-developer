@@ -1,0 +1,5 @@
+#include <iostream>
+#include <QApplication>
+#include <QLabel>
+#include <QSpinBox>
+#include <QPushButton>
