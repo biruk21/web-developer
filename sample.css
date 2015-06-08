@@ -1,0 +1,114 @@
+/* main.css by: Biruk Amlaku
+version: 1.0
+date: may-1-2015
+*/
+
+body {
+	
+	background-image: url("images/background.png");
+}
+p {
+    line-height: 1.4;
+    font-size:110%;
+    color: #333;
+    margin: 2%
+}
+h1, h2, h4, h5, h6 {
+    font-family: tahoma, sans-serif;
+    font-size: 150%;
+    color: #554327;
+    margin: .25ex 12pt;
+    text-align: center;
+}
+h3 {
+	font-family: tahoma, sans-serif;
+    font-size: 175%;
+    color: #333;
+    margin: .25ex 12pt;
+    text-align: right;
+}
+a:hover {
+   	text-decoration: underline;
+}
+
+/* nav */
+
+nav#top-menu {
+    width: 100%;
+    height: 120px;
+    background-color: #eec;
+    margin: 0;
+    padding: 0;
+}
+
+#top-menu ul {
+    display: block;
+    list-style-type: none;
+    width: 900px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#top-menu ul li {
+    margin: 0;
+    padding: 0;
+}
+
+#top-menu ul li a {
+    display: block;
+    float: left;
+    max-height: 100px;
+    width: 150px;
+    margin: 0;
+    padding: 5px 0;
+    font-family: tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: 0f2d51;
+}
+
+#top-menu ul li a:hover {
+	font-weight: bold;
+	color: gray;
+	height:150%;
+}
+
+/* image float */
+
+.float-left{
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.float-right{
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* maindiv */
+
+#maindiv {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #eec;
+}
+
+/* footer */
+
+footer {
+    background: #eec;
+}
+
+footer p {
+    color: gray;
+    font-size: 70%;
+    font-family: tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 8px 0;
+}
+ 

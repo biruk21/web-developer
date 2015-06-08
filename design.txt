@@ -1,0 +1,11 @@
+//functions
+	[]writeFile
+	[]config style(bgImage,bgcolor)
+	[*]config header->nav:font
+	[*]config body->img
+	[*]config footer
+	
+//structures
+	[]font
+	[*]image
+	[]css
